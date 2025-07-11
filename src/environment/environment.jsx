@@ -1,5 +1,5 @@
 export const environment = {
-  API_BASE_URL: "https://7717ebcec2a1.ngrok-free.app",
+  API_BASE_URL: process.env.REACT_APP_API_URL,
   // API_BASE_URL: "https://4587-2401-4900-8820-590c-c06-108d-29d9-fb60.ngrok-free.app",
 
   // API_BASE_URL: "https://api.gauswarn.com",
