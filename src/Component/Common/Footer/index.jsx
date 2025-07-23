@@ -10,7 +10,7 @@ import { GiShoppingBag } from "react-icons/gi";
 import FooterTopImg from "../../../asset/img/Background/footer-img-top.png";
 import { MdOutlineMail } from "react-icons/md";
 import { IoMdCall } from "react-icons/io";
-import { FaLinkedin } from "react-icons/fa6";
+// import { FaLinkedin } from "react-icons/fa6";
 import { Link, NavLink } from "react-router-dom";
 import ReactWhatsapp from "react-whatsapp";
 
@@ -116,11 +116,11 @@ const Footer = () => {
                   type: "icon",
                   link: "https://www.youtube.com/@rajendrarajpurohit8787",
                 },
-                {
-                  Icon: FaLinkedin,
-                  alt: "LinkeDin",
-                  type: "icon",
-                },
+                // {
+                //   Icon: FaLinkedin,
+                //   alt: "LinkeDin",
+                //   type: "icon",
+                // },
               ].map((item, index) =>
                 item.type === "icon" ? (
                   <NavLink
@@ -277,7 +277,7 @@ const Footer = () => {
                     href="#/"
                     className="text-decoration-none text-color-eggshell"
                   >
-                    <MdOutlineMail /> rajlaxmiorganicfoods@gmail.com
+                    <MdOutlineMail /> info@gauswarn.com
                   </a>
                 </li>
                 <li className="my-2">
@@ -285,7 +285,7 @@ const Footer = () => {
                     href="#/"
                     className="text-decoration-none text-color-eggshell"
                   >
-                    <IoMdCall /> +91 8769115905
+                    <IoMdCall /> +91 7470915905
                   </a>
                 </li>
               </ul>

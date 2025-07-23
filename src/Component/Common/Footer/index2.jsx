@@ -77,11 +77,7 @@ const Footer2 = () => {
                   type: "icon",
                   link: "https://www.youtube.com/@rajendrarajpurohit8787",
                 },
-                {
-                  Icon: FaLinkedin,
-                  alt: "LinkeDin",
-                  type: "icon",
-                },
+                
               ].map((item, index) =>
                 item.type === "icon" ? (
                   <NavLink
@@ -242,7 +238,7 @@ const Footer2 = () => {
                     href="#/"
                     className="text-decoration-none text-color-eggshell"
                   >
-                    <MdOutlineMail /> rajlaxmiorganicfoods@gmail.com
+                    <MdOutlineMail /> info@gauswarn.com
                   </a>
                 </li>
                 <li className="my-2">
@@ -250,7 +246,7 @@ const Footer2 = () => {
                     href="#/"
                     className="text-decoration-none text-color-eggshell"
                   >
-                    <IoMdCall /> +91 8769115905
+                    <IoMdCall /> +91 7470915905
                   </a>
                 </li>
               </ul>

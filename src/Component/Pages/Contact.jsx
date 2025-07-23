@@ -196,8 +196,8 @@ const Contact = () => {
                     <i className="fas fa-address-book"></i> Contact
                   </h4>
                   <p>
-                    Phone: +91 8769115905 <br /> Email:
-                    rajlaxmiorganicfoods@gmail.com
+                    Phone: +91 7470915905 <br /> Email:
+                    info@gauswarn.com
                   </p>
                 </div>
               </div>

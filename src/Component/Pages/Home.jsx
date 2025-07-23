@@ -93,7 +93,6 @@ import { AiOutlineLeft, AiOutlineRight } from "react-icons/ai";
 import { BsChevronLeft, BsChevronRight } from "react-icons/bs";
 
 const Home = () => {
-  
   useEffect(() => {
     const carousel = document.querySelector("#carouselExampleControls");
     if (carousel) {
@@ -169,7 +168,7 @@ const Home = () => {
                 className="carousel-control-next-icon"
                 aria-hidden="true"
               ></span> */}
-<BsChevronRight className="text-dark fs-1" />
+              <BsChevronRight className="text-dark fs-1" />
               <span className="visually-hidden">Next</span>
             </button>
           </div>
